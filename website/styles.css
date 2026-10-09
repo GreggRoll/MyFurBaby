@@ -879,6 +879,9 @@ em {
 }
 
 @media(max-width:760px) {
+  .widget-stage:before {
+    inset:8% 8% 4% 8%;
+  }
   .wrap {
     width:calc(100% - 40px)
   }
