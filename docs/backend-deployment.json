@@ -1,0 +1,20 @@
+{
+  "backendURL": "https://myfurbaby-api-production.up.railway.app",
+  "projectID": "1e766e21-4a6b-4ea8-9f70-7fd69c31a39a",
+  "serviceID": "ed3a9992-a9ac-4687-b21f-d012a0f00ad1",
+  "environmentID": "dd1183ae-c75d-405a-bf43-494621507471",
+  "volumeID": "6159dd84-2991-48c7-85a5-3e5ee866d8ad",
+  "mountPath": "/data",
+  "volumeCapacityMB": 500,
+  "currentDeploymentID": "a301825c-986a-4c37-94c7-2db02541ed1b",
+  "currentDeploymentStatus": "SUCCESS",
+  "appleEnvironment": "Sandbox",
+  "sandboxNotificationURL": "https://myfurbaby-api-production.up.railway.app/v1/apple/notifications",
+  "existingTestFlightBuild": "1.0 (11)",
+  "requiresServiceURLInSettings": false,
+  "noPaidUpgradePerformed": true,
+  "spendStopLimitConfigured": false,
+  "verifiedAt": "2026-10-09T03:36:04.407Z",
+  "animationsConfigured": true,
+  "animationStageProgress": true
+}

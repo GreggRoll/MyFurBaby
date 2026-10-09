@@ -1,0 +1,11 @@
+My Fur Baby 1.0 (11) — widget moods and animation progress
+
+Widgets now offer Auto, Playful (licking), and Sleepy. Running is temporarily removed. A previously saved Running mood should switch to Playful.
+
+With Pro and a generated pet, tap Animate my pet. Verify the button loading bar and separate Licking/Sleeping bars advance through real pipeline stages. Sleeping includes preparing and checking the sleeping pose, removing the background, adding floating Zs, and saving. Percentages reflect completed stages, so they may pause during longer steps.
+
+Only missing licking and sleeping animations are requested: up to 500 credits for both, or 250 for one. Completed animations replay free. If interrupted, tap Animate again to recover or retry only missing animations. A completed animation should remain ready if the next one fails.
+
+Saved animations now hold their final frame for roughly 20 seconds before replaying, in the app and iOS 18+ widgets. Open the app once after upgrading to rebuild widget frames. Test small and wide widgets with Clear, solid color, Cozy, and Cyberpunk backgrounds; confirm pet transparency and the correct name.
+
+Check Reduce Motion and night-time Auto sleeping. Continuous widget motion remains experimental; please report physical-device behavior.

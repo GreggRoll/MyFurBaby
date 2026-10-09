@@ -1,0 +1,18 @@
+{
+  "identifier": "D2934E98-351A-473F-AB8A-86773602C000",
+  "nonRenewingSubscriptions": [],
+  "products": [{
+    "displayPrice": "4.99", "familyShareable": false,
+    "internalID": "CREDITPACK", "localizations": [{"description": "5,000 extra credits. Purchased credits do not expire.", "displayName": "5,000 Fur Baby credits", "locale": "en_US"}],
+    "productID": "500CreditPack", "referenceName": "5000 credits", "type": "Consumable"
+  }],
+  "settings": {"_applicationInternalID": "", "_developerTeamID": "", "_failTransactionsEnabled": false, "_locale": "en_US", "_storefront": "USA", "_storeKitErrors": [], "_timeRate": 0},
+  "subscriptionGroups": [{
+    "id": "MYFURBABYPRO", "localizations": [], "name": "My Fur Baby Pro",
+    "subscriptions": [
+      {"adHocOffers": [], "codeOffers": [], "displayPrice": "4.99", "familyShareable": false, "groupNumber": 1, "internalID": "PROMONTHLY", "introductoryOffer": null, "localizations": [{"description": "Pro widgets, pet poses and photo adventures. 5,000 credits each month.", "displayName": "My Fur Baby Pro Monthly", "locale": "en_US"}], "productID": "ProMonthly499", "recurringSubscriptionPeriod": "P1M", "referenceName": "Pro Monthly", "subscriptionGroupID": "MYFURBABYPRO", "type": "RecurringSubscription"},
+      {"adHocOffers": [], "codeOffers": [], "displayPrice": "50.00", "familyShareable": false, "groupNumber": 1, "internalID": "PROYEARLY", "introductoryOffer": null, "localizations": [{"description": "A year of Pro. 5,000 credits each month, no rollover.", "displayName": "My Fur Baby Pro Yearly", "locale": "en_US"}], "productID": "ProYearly4999", "recurringSubscriptionPeriod": "P1Y", "referenceName": "Pro Yearly", "subscriptionGroupID": "MYFURBABYPRO", "type": "RecurringSubscription"}
+    ]
+  }],
+  "version": {"major": 3, "minor": 0}
+}

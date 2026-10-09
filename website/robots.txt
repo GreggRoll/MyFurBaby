@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://greggroll.github.io/MyFurBaby/sitemap.xml

@@ -1,0 +1,11 @@
+# Allow only backend source and public certificates into the build context.
+# In particular, never upload .env, local SQLite files or node_modules.
+**
+!Dockerfile
+!package.json
+!package-lock.json
+!*.js
+!certificates/
+!certificates/*.cer
+!tests/
+!tests/*.test.js
