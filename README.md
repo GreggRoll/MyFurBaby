@@ -29,7 +29,7 @@ Choose your own photo, describe where your pet should be, and create a memory to
 
 Choose their species, colors, accessories, gender, and name. The creation flow introduces your pet and lets you confirm their name. Widgets, animations, and photo adventures require Pro; AI generation uses in-app credits. Saved artwork and animations can be reused.
 
-The GIFs are presentation demos adapted from the app’s bundled onboarding videos. The widget screenshots are actual Home Screen captures. The app is in development; see the development notes for device validation and purchase-testing status.
+The website shows silent, looping MP4s cropped from actual Home Screen recordings. The GIFs in this README are presentation demos adapted from the app’s bundled onboarding videos. The app is in development; see the development notes for device validation and purchase-testing status.
 
 ## Run the iOS app
 

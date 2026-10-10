@@ -12,7 +12,7 @@ python3 -m http.server 8080 --directory website
 
 Open http://localhost:8080. Edit `index.html`, `styles.css`, and `script.js`, then commit and push to `main` to publish.
 
-The supplied Home Screen screenshots are cropped to the widget boundaries in `website/assets/widget-*.jpg`. The GIFs reuse `Resources/Onboarding/onboarding-widgets.mp4` and `onboarding-adventures.mp4`. Posters remain visible with JavaScript disabled, with Reduce Motion enabled, or when animations are paused. GIFs load near the viewport. The pause control affects both demos.
+The four supplied Home Screen recordings are cropped to the widget boundaries and encoded as H.264 MP4s in `website/assets/widget-*.mp4`. Audio and source metadata are removed. The hero, widget selector, background example, and Sterling feature play the actual recordings with muted inline autoplay and looping. The adventure presentation uses the bundled `adventures.mp4`. All videos share the pause/play controls, stop offscreen or when the tab is hidden, and pause with Reduce Motion. If autoplay is blocked, the controls offer Play animations. JPEG screenshots remain as poster images and for social previews.
 
 ## Add the App Store link at launch
 
@@ -27,8 +27,8 @@ Do not use a placeholder App Store URL. Until launch, the page intentionally dis
 ## Assets
 
 - App icon: existing My Fur Baby branding.
-- Widget examples: the four screenshots supplied for this page.
-- Animation and adventure demos: the app’s existing onboarding clips, converted to GIF.
+- Widget examples: the four supplied screen recordings, with the original JPEGs as posters.
+- Sterling animation: the supplied sleeping-widget recording. Adventure demo: the app’s existing onboarding clip.
 - Social preview: a composition of the supplied clock and sleeping-tiger screenshots.
 
 The page includes Pro/credit context, labels the GIF presentation demos, and uses real app features without invented testimonials or download claims.

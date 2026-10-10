@@ -33,12 +33,13 @@
         <p class="intro">A sleepy cuddle. A playful hello. A tiny friend who makes your everyday feel a little more magical.</p>
         <div class="hero-actions"><a class="button primary" href="#widgets">Meet the widgets <span aria-hidden="true">↓</span></a><a class="text-link" href="#adventures">Go on an adventure <span aria-hidden="true">↗</span></a></div>
         <p class="availability"><span class="status-dot" aria-hidden="true"></span> Coming soon to the App Store</p>
+        <button class="motion-toggle hero-motion-toggle" type="button" aria-pressed="false">Pause animations <span aria-hidden="true">Ⅱ</span></button>
       </div>
       <div class="widget-stage" aria-label="Actual My Fur Baby Home Screen widgets">
         <span class="stage-note">a little corner of happiness</span>
-        <img class="hero-clock" src="assets/widget-clock.jpg" width="772" height="361" alt="A rainbow giraffe mermaid beside a clock in a purple bedroom widget" fetchpriority="high">
-        <img class="hero-quote" src="assets/widget-quote.jpg" width="698" height="328" alt="A black poodle and a daily quote in a cozy living room widget">
-        <img class="hero-sleep" src="assets/widget-sterling.jpg" width="522" height="526" alt="Sterling, a sleepy white tiger, curled up in a small widget">
+        <video class="hero-clock" width="772" height="361" data-animation src="assets/widget-clock.mp4" poster="assets/widget-clock.jpg" autoplay muted loop playsinline preload="auto" aria-label="A rainbow giraffe mermaid playing beside a clock in a purple bedroom widget">Your browser does not support video playback.</video>
+        <video class="hero-quote" width="698" height="328" data-animation src="assets/widget-quote.mp4" poster="assets/widget-quote.jpg" autoplay muted loop playsinline preload="auto" aria-label="A black poodle playing beside a daily quote in a cozy living room widget">Your browser does not support video playback.</video>
+        <video class="hero-sleep" width="522" height="526" data-animation src="assets/widget-sterling.mp4" poster="assets/widget-sterling.jpg" autoplay muted loop playsinline preload="auto" aria-label="Sterling, a sleepy white tiger, snoring in a small widget">Your browser does not support video playback.</video>
         <span class="sleep-tag">currently: very cozy <span aria-hidden="true">☾</span></span>
         <span class="stage-spark spark-one" aria-hidden="true">✧</span><span class="stage-spark spark-two" aria-hidden="true">✦</span>
       </div>
@@ -58,10 +59,10 @@
           </div>
           <p class="explorer-caption" id="widget-description" aria-live="polite">Time for a cuddle. A clock with a colorful companion.</p>
         </div>
-        <figure class="explorer-visual" id="widget-figure"><img id="widget-preview" src="assets/widget-clock.jpg" width="772" height="361" alt="A rainbow giraffe mermaid and the clock layout" loading="lazy"><figcaption>REAL HOME SCREEN WIDGETS. REALLY CUTE COMPANY.</figcaption></figure>
+        <figure class="explorer-visual" id="widget-figure"><video id="widget-preview" width="772" height="361" data-animation src="assets/widget-clock.mp4" poster="assets/widget-clock.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A rainbow giraffe mermaid playing in the clock layout">Your browser does not support video playback.</video><figcaption>REAL HOME SCREEN WIDGETS. REALLY CUTE COMPANY.</figcaption></figure>
       </div>
       <div class="background-story">
-        <figure><img src="assets/widget-rhino.jpg" width="755" height="354" loading="lazy" alt="A white rhino in boxing gear with a daily quote in a boxing ring widget"></figure>
+        <figure><video width="755" height="354" data-animation src="assets/widget-rhino.mp4" poster="assets/widget-rhino.jpg" autoplay muted loop playsinline preload="metadata" aria-label="A white rhino boxing beside a daily quote in a boxing ring widget">Your browser does not support video playback.</video></figure>
         <div><p class="eyebrow">COZY? COSMIC? COMPLETELY YOU?</p><h3>Give them a world<br>of their own.</h3><p>Choose a cozy living room, a neon bedroom, a solid color, or a clear background. Feeling imaginative? Describe your own scene and save it to your background gallery.</p><div class="swatches" aria-label="Background styles"><span class="swatch cozy"></span><span class="swatch neon"></span><span class="swatch pink"></span><span class="swatch clear"></span><span>Make it yours.</span></div></div>
       </div>
     </section>
@@ -69,12 +70,12 @@
     <section class="motion-section" aria-labelledby="motion-title">
       <div class="wrap motion-layout">
         <div class="motion-copy"><p class="eyebrow">LITTLE MOMENTS. BIG FEELINGS.</p><h2 id="motion-title">Playful hellos.<br>Sleepy cuddles.<br><span>Always your Fur Baby.</span></h2><p>Pick a playful or sleepy mood and enjoy your pet’s saved animations. Your little companion, with their own little routine.</p><button class="motion-toggle" type="button" aria-pressed="false">Pause animations <span aria-hidden="true">Ⅱ</span></button></div>
-        <figure class="demo-frame"><img class="animated-demo" src="assets/widgets-poster.jpg" data-gif="assets/widgets.gif" data-still="assets/widgets-poster.jpg" width="560" height="560" loading="lazy" alt="Animated demo of Mochi in small and wide widget layouts"><figcaption>WIDGET LAYOUT DEMO</figcaption></figure>
+        <figure class="demo-frame"><video width="522" height="526" data-animation src="assets/widget-sterling.mp4" poster="assets/widget-sterling.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Home Screen recording of Sterling sleeping and snoring">Your browser does not support video playback.</video><figcaption>STERLING, AT HOME ON YOUR HOME SCREEN</figcaption></figure>
       </div>
     </section>
 
     <section id="adventures" class="adventure-section section wrap" aria-labelledby="adventures-title">
-      <figure class="adventure-demo"><img class="animated-demo" src="assets/adventures-poster.jpg" data-gif="assets/adventures.gif" data-still="assets/adventures-poster.jpg" width="560" height="560" loading="lazy" alt="Adventure demo showing a purple puppy on the moon and hanging out at home"><figcaption>A LITTLE IMAGINATION GOES A LONG WAY.</figcaption></figure>
+      <figure class="adventure-demo"><video data-animation src="assets/adventures.mp4" poster="assets/adventures-poster.jpg" width="560" height="560" autoplay muted loop playsinline preload="metadata" aria-label="Adventure demo showing a purple puppy on the moon and hanging out at home">Your browser does not support video playback.</video><figcaption>A LITTLE IMAGINATION GOES A LONG WAY.</figcaption></figure>
       <div class="adventure-copy"><p class="eyebrow">02 / TAKE THE LITTLE ONE ALONG</p><h2 id="adventures-title">Your real world.<br>Their next <em>adventure.</em></h2><p>That favorite vacation photo. A lazy afternoon on the sofa. A selfie that needs a little more cute. Bring your Fur Baby into your own photos and make a memory together.</p><ol class="adventure-steps"><li><span>01</span><div><h3>Pick a photo.</h3><p>Choose a moment from your camera roll.</p></div></li><li><span>02</span><div><h3>Tell them where to be.</h3><p>On your lap, beside you, ready for adventure.</p></div></li><li><span>03</span><div><h3>Keep the memory.</h3><p>Revisit your gallery, share it, or save to Photos.</p></div></li></ol></div>
     </section>
 
