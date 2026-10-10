@@ -6,6 +6,8 @@ Dream up a Fur Baby, give them a cozy widget, and bring them along on photo adve
 
 [**Explore the website →**](https://greggroll.github.io/MyFurBaby/)
 
+[Privacy policy](https://greggroll.github.io/MyFurBaby/privacy/)
+
 **App Store: coming soon.** The download link will appear on the website when the app launches.
 
 ![My Fur Baby Home Screen widgets](website/assets/social-preview.jpg)

@@ -2,6 +2,10 @@
 
 Public website: https://greggroll.github.io/MyFurBaby/
 
+Privacy policy: https://greggroll.github.io/MyFurBaby/privacy/
+
+Use the privacy URL in the App Store Connect Privacy Policy field. Its source is `website/privacy/index.html`. Keep the policy aligned with actual data handling when providers, retention, or account controls change.
+
 The static page lives in `website/`. The GitHub Pages workflow publishes that folder on `main`. It does not run or deploy the iOS app or backend.
 
 ## Preview and update
